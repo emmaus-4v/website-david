@@ -12,7 +12,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 100%;
     position: relative;
 }
 
@@ -72,11 +72,11 @@ nav ul {
     padding: 0;
     background-color: #f7f8ab;
     overflow: hidden;
-    width: 15%;
+    width: 10%;
     float: left;
     position: fixed;
-    left: 27px;
-    top: 115px;
+    left: 4%;
+    top: 18%;
 }
 
 nav ul li {
