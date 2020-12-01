@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: rgb(255, 230, 0);  
-    
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -77,6 +76,7 @@ nav ul {
     position: fixed;
     left: 4%;
     top: 18%;
+    font-size: 85%;
 }
 
 nav ul li {
@@ -90,6 +90,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1.25vw;
 }
 
 nav li a:hover {
