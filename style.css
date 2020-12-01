@@ -63,6 +63,20 @@ a:hover {
     text-decoration: underline;
 }
 
+#tekst{
+    height: 170px;
+}
+
+#kaart{
+    height: 170px;
+}
+#minotaurus{
+    height: 170px;
+}
+
+#akropolis{
+    height: 170px;
+}
 
 /* navigatiebalk */
 nav ul {
@@ -87,10 +101,10 @@ nav ul li {
 nav li a {
     display: block;
     color: rgb(27, 27, 27);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
+    text-align: center;
 }
 
 nav li a:hover {
