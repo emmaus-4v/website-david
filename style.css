@@ -64,8 +64,10 @@ a:hover {
     text-decoration: underline;
 }
 
-#titel-oorlogen{
+.titel-oorlogen{
     font-size: 1.25em;
+    text-align: center;
+    font-weight: bold;
 }
 #tekst{
     height: 170px;
