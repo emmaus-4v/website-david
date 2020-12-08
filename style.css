@@ -74,6 +74,7 @@ a:hover {
     text-align: center;
     font-weight: bold;
 }
+
 #tekst{
     height: 170px;
 }
@@ -89,6 +90,25 @@ a:hover {
     height: 170px;
 }
 
+#alexander {
+    height: 170px;
+}
+
+#oorlog-perzen{
+    height: 150px;
+}
+
+#oorlog-peloponnesisch{
+    height: 150px;
+}
+
+#athena{
+    width: 210px;
+}
+
+.god{
+    height: 200px;
+}
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
