@@ -102,13 +102,26 @@ a:hover {
     height: 150px;
 }
 
+#zeus{
+    height: 150px;
+}
+
+#poseidon{
+    height: 140px;
+}
+
+#hera{
+    height: 150px;
+}
+
 #athena{
     width: 210px;
 }
 
-.god{
-    height: 200px;
+#apollo{
+    height: 130px;
 }
+
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
