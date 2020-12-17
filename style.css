@@ -161,9 +161,10 @@ nav li a.active {
 
 /* animatie */
 
-div{
+div.animatie{
     border: 3px solid black;
-    overflow: hidden;
+    overflow: visible;
+    width: 150px;
 }
 
 .animatie {
@@ -178,16 +179,32 @@ div{
 
 @keyframes slide1{
     0% {
-        left: 0%;
-    }
-    99.99%{
-        left:100%
+        left: 0px;
     }
     100% {
-        left: 0%;
+        left: 150px;
     }
 }
 
 .animatie img:nth-child(3) {
     animation: slide1 10s 0s infinite
+}
+
+@keyframes slide2{
+    0% {
+        left: 0px;
+    }
+    72% {
+        left: 90px;
+    }
+    72.01%{
+        left: -60px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+.animatie img:nth-child(2){
+    animation: slide2 10s 0s infinite;
 }
