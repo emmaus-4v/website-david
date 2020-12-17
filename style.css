@@ -162,9 +162,10 @@ nav li a.active {
 /* animatie */
 
 div.animatie{
-    border: 3px solid black;
-    overflow: visible;
-    width: 150px;
+    overflow: hidden;
+    position: center;
+    right: 25%;
+    width: 141px;
 }
 
 .animatie {
@@ -173,38 +174,112 @@ div.animatie{
     height: 40px;
 }
 
+.animatie p{
+    color: red;
+    font-weight: bold;
+    position: relative;
+    right: 141px;
+    bottom: 48px;
+}
+
 .animatie img{
     left: 0%;
 }
 
 @keyframes slide1{
     0% {
-        left: 0px;
+        left: 0%;
+    }
+    50% {
+        left: 100%;
+    }
+    50.01% {
+        left: -100%;
     }
     100% {
-        left: 150px;
+        left: 0%;
     }
 }
 
 .animatie img:nth-child(3) {
-    animation: slide1 10s 0s infinite
+    animation: slide1 25s 0s infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes slide2{
     0% {
         left: 0px;
     }
-    72% {
-        left: 90px;
+    38.5% {
+        left: 77%;
     }
-    72.01%{
-        left: -60px;
+    38.51%{
+        left: -123%;
     }
     100%{
-        left: 0px;
+        left: 0%;
     }
 }
 
 .animatie img:nth-child(2){
-    animation: slide2 10s 0s infinite;
+    animation: slide2 25s 0s infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes slide3 {
+    0%{
+        left: 0%;
+    }
+    14.6%{
+        left: 28%;
+    }
+    14.61%{
+        left: -172%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+.animatie img:nth-child(1){
+    animation: slide3 25s 0s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slide4 {
+    0%{
+        right: 105%;
+    }
+    20%{
+        color: red;
+    }
+    30%{
+        color: black;
+    }
+    40%{
+        color: red;
+    }
+    50%{
+        color: black;
+    }
+    60%{
+        color: red;
+    }
+    70%{
+        color: black;
+    }
+    80% {
+        color: red;
+    }
+    90% {
+        color: black;
+    }
+    100%{
+        right: -95%;
+    }
+}
+
+.animatie p{
+    animation: slide4 25s 0s infinite;
+    animation-timing-function: linear;
 }
