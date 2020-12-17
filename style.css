@@ -36,6 +36,7 @@ footer {
 p, table {
     width: 80%;
     float: right;
+    padding-right: 10px;
 }
 
 th, td{
@@ -158,6 +159,15 @@ nav li a.active {
     background-color: rgb(155, 216, 13);
 }
 
+/* animatie */
 
+.animatie img {
+    height: 40px;
+    margin: 0px;
+}
 
-
+.animatie {
+    position: relative;
+    border: 3px solid black;
+    float: right;
+}
