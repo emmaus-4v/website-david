@@ -163,7 +163,6 @@ nav li a.active {
 
 div.animatie{
     overflow: hidden;
-    position: center;
     right: 25%;
     width: 141px;
 }
@@ -186,7 +185,7 @@ div.animatie{
     left: 0%;
 }
 
-@keyframes slide1{
+@keyframes slide-img1{
     0% {
         left: 0%;
     }
@@ -202,11 +201,11 @@ div.animatie{
 }
 
 .animatie img:nth-child(3) {
-    animation: slide1 25s 0s infinite;
+    animation: slide-img1 25s 0s infinite;
     animation-timing-function: linear;
 }
 
-@keyframes slide2{
+@keyframes slide-img2{
     0% {
         left: 0px;
     }
@@ -222,11 +221,11 @@ div.animatie{
 }
 
 .animatie img:nth-child(2){
-    animation: slide2 25s 0s infinite;
+    animation: slide-img2 25s 0s infinite;
     animation-timing-function:linear;
 }
 
-@keyframes slide3 {
+@keyframes slide-img3 {
     0%{
         left: 0%;
     }
@@ -242,11 +241,11 @@ div.animatie{
 }
 
 .animatie img:nth-child(1){
-    animation: slide3 25s 0s infinite;
+    animation: slide-img3 25s 0s infinite;
     animation-timing-function: linear;
 }
 
-@keyframes slide4 {
+@keyframes slide-p {
     0%{
         right: 105%;
     }
@@ -280,6 +279,6 @@ div.animatie{
 }
 
 .animatie p{
-    animation: slide4 25s 0s infinite;
+    animation: slide-p 25s 0s infinite;
     animation-timing-function: linear;
 }
